@@ -1,6 +1,6 @@
 # nacos-mcp-server (Java)
 
-把 Nacos 3.2.1 上的 AI 资源(MCP / Skill / AgentSpec / A2A Agent / Prompt)暴露为 MCP 工具,供 Claude Code 等任意 MCP 客户端消费。
+把 Nacos 上的 AI 资源(MCP / Skill / AgentSpec / A2A Agent / Prompt)暴露为 MCP 工具,供 Claude Code 等任意 MCP 客户端消费。
 
 基于 Spring Boot 3.3 + Spring AI MCP Server (WebMVC) + nacos-client 3.2.1。
 
