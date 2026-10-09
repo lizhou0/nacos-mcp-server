@@ -132,10 +132,12 @@ docker run -p 9000:9000 -e NACOS_ADDR=nacos.internal:8848 nacos-mcp-server:0.1.0
 ## 安全建议
 
 - 为本服务在 Nacos 上**单独建一个只读账号**,只授予 AI 资源的 READ 权限
-- 生产部署必须前置 APISIX/Kong 网关做 TLS + Bearer Token 鉴权,配置见上层方案文档 `nacos-claude-code-mcp-integration.md` 第六节
-  完整方案、网关部署、Python 版实现详见上层文档:
-  `/Users/lizhou/Study/nacos-3.2.1/nacos-claude-code-mcp-integration.md`
+- 生产部署必须前置 APISIX/Kong 网关做 TLS + Bearer Token 鉴权
 - `nacos.password` 通过环境变量注入,不要硬编码或提交到 git
+
+## License
+
+[Apache License 2.0](LICENSE)
 
 
 

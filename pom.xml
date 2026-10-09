@@ -11,6 +11,13 @@
     <name>nacos-mcp-server</name>
     <description>Nacos AI MCP Server: exposes Skill / MCP / AgentSpec / Prompt as MCP tools</description>
 
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+    </licenses>
+
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
